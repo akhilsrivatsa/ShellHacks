@@ -1,0 +1,51 @@
+.animation_trigger{
+    background-color: aquamarine;
+    animation: 
+    animateElement  0.2s 0.05s 3 backwards,
+    pulse 3s ease infinite alternate, 
+    nudge 5s linear infinite alternate;
+}
+
+@keyframes animateElement{
+    from {
+        background-color : lightblue;
+        transform: translate();
+        
+        
+    }
+  to {background-color : lightskyblue; 
+}
+}
+.color_path{
+  background-color: blue;
+}
+
+.pointer {
+    width: 200px;
+    height: 40px;
+    position: relative;
+    background: red;
+  }
+.pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .pointer:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid red;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    
+  }

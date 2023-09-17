@@ -1,0 +1,38 @@
+.row {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+  }
+  .block {
+    width: 100px;
+    margin-left: 150px;
+    font : caption;
+    font-size: medium;
+    height: 25px;
+    width: 25px;
+    border: 1px dashed lightcyan;
+    margin-right : 5px;
+    clear: both;
+}
+  
+  .start{
+    background-color : yellow;
+  }
+  .end {
+    background-color :lawngreen;
+  }
+  
+  .visited {
+    background-color : aquamarine;
+  }
+  .wall{
+      background-color: black;
+  }
+  .path{
+      background-color: blue;
+  }
+  
+  .blue {
+    background-color: blue;
+  }

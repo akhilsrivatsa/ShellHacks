@@ -1,0 +1,12 @@
+.Square{
+  
+  border: 0.5px solid #615f5c;
+  height: 30px;
+  width: 30px;
+}
+.first{
+  background-color: yellow;
+}
+.last{
+  background-color: yellowgreen;
+}
